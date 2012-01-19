@@ -1,0 +1,45 @@
+<script language='JavaScript'> 
+function openWindow(url) 
+{ popupWin = window.open(url, 'openWin', "width=400, height=250, scrollbars=yes"); 
+} 
+
+function breakout_of_frame()
+{
+  // see http://www.thesitewizard.com/archive/framebreak.shtml
+  // for an explanation of this script and how to use it on your
+  // own website
+  if (top.location != location) {
+    top.location.href = document.location.href ;
+  }
+}
+
+
+// subscribe form varification
+function validate_email(field,alerttxt)
+{
+with (field)
+{
+apos=value.indexOf("@")
+dotpos=value.lastIndexOf(".")
+if (apos<1||dotpos-apos<2)
+  {alert(alerttxt);return false}
+else {return true}
+}
+}
+function validate_form(thisform)
+{
+with (thisform)
+{
+if (validate_email(email,"That doesn't appear to be a valid e-mail address. Please try again.")==false)
+  {email.focus();return false}
+}
+}
+
+
+</script> 
+<script language="javascript" type="text/javascript" src="/js/gallery.js"  charset="charset=UTF-8"></script> 
+<script language="javascript" type="text/javascript" src="/js/log_analysis_info.js"></script>
+
+ 
+
+

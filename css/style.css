@@ -1,0 +1,176 @@
+/*
+Adjust these selectors by rendering each user page and looking at the browser source to see the element or class needing change.
+Note, IE 6 and php generated html require specifying font sizes in several selectors*/
+
+/*Use pt sizes only here */
+
+
+
+
+body { text-align:center; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; margin:0; padding:0; background-color: #fff; background-image: url(../../images/bg_bk_noline.gif); background-repeat: repeat-y; background-position: 50%; }
+
+a:link { color:#990000; text-decoration:none; font-weight:bold;}
+a:visited { color:#990000; text-decoration:none; font-weight:bold;}
+a:hover { color:#003399; text-decoration:underline; font-weight:bold;}
+a:active { color:#660000;  }
+
+img { border:none; }
+
+h1, h2, h3, h4, h5, h6 { margin:0; padding:0; }
+
+h1{
+   font: normal normal bold 12pt Arial, Verdana, Helvetica;
+}
+h3 {
+   font: normal normal bold 12pt Arial, Verdana, Helvetica;
+}
+
+
+p
+{
+	font-family: Arial, Verdana, Helvetica;
+	font-size: 11px;
+	line-height: 16px;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+
+
+dd {
+   font-weight: normal
+}
+
+/* from tyee site */
+#container { width:760px; text-align:left; margin:0 auto; position:relative; }
+/* the container that holds the fish logo */
+#centerheader_container{ width:100%; height:92px; background-color:white; text-align: center; }
+#centerheader { margin-top:5px; margin-bottom:20px; } 
+
+#topnav_container{padding-bottom:15px; padding-top:5px;}
+
+/* Your banner can have a different color than the window ,
+here is a color close to phpList std. background-color: #E6B17B;*
+You probably won't want the border around the banner, remove the selector or change solid to none*/
+/*div.banner {
+   background-color: transparent;
+   border: none;
+   color: #0068CC;
+   font: 900 24pt "times new roman", times, serif;
+   margin-bottom: .4em;
+   text-align: center;
+   width: 100%
+}*/
+/* This div  contains everything,
+set font size here and then use pt sizes or scale with em for the selectors*/
+div.main{
+  /* background-color: #D4D0C8;*/
+   font: normal normal normal 10pt "MS Sans Serif", Geneva, sans-serif;
+   left: 140px;
+   padding: 1em;
+   position: relative;
+   text-align: left;
+   top: 0%;
+   width: 70%
+}
+
+#inner_box{
+padding: 10px;
+width: 500px;
+/*background-color:#FF9;*/
+}
+
+
+#inner_box p
+{
+	font-family: Arial, Verdana, Helvetica;
+	font-size: 13px;
+	line-height: 16px;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+#inner_box table{
+border-collapse: seperate;
+border-spacing: 6px;
+background-color:#D4D0C8;
+margin-bottom:5px;
+padding:10px;
+}
+
+#inner_box table td{
+font-size:12px;
+}
+
+#submit_button{
+padding-bottom:20px;
+/*background-color:yellow;*/
+
+}
+
+#email_format{
+padding:10px;
+}
+
+input {
+   font-size: 9pt;
+   font-weight: bold
+}
+li{
+   color: #000000;
+   font-size: 10pt;
+   font-weight: bold
+}
+
+   
+td {
+   font: normal normal 10pt Arial, Verdana, Helvetica;
+   text-align: left;
+}
+ul {
+   list-style-type: none
+}
+/* Must set font size here because code uses class="list" */
+ul.list {
+   list-style-type: none
+}
+.attributeinput{
+   font: normal normal bold 10pt Arial, Verdana, Helvetica;
+}
+.attributename {
+   font: normal normal bold 10pt Arial, Verdana, Helvetica;
+}
+.error {
+   color: #FF0000;
+   font-size: 10pt;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none
+}
+.info {
+   color: #FF00FF;
+   font-size: 11pt;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none
+}
+
+.input {
+   font-size: 10pt;
+   font-weight: normal;
+}
+.listdescription{
+   font-size: 1em;
+   font-weight: normal;
+   margin-bottom: .5em
+}
+/* font size must be set here */
+.required
+{
+	color: #C03;
+	font-family: Arial, Verdana, Helvetica;
+	font-size: 10pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+} 
