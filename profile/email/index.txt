@@ -1,0 +1,13 @@
+Someone, hopefully you, has requested to update the subscription options for  %%EMAIL%% at TheTyee.ca.
+
+If this is correct, please click the following link to proceed to the subscription options form:
+
+%%URL%%
+
+If this is not correct, you do not need to do anything, simply delete this message.
+
+(Note: If the URL listed above is broken across two lines, you may need to cut and paste it back together in your Web browser.)
+
+Thank you,
+
+The Tyee
