@@ -16,7 +16,11 @@
 	<input type="hidden" name="goto" value="%%GOTO%%"> 
 	<input type="hidden" name="multi_extended" value="1"> 
 	<input type="hidden" name="subject" value="%%$sender_first%%%%if sender_first = " " then printdata sender_email%% thought you'd be interested in this."> 
-
+	<input type="hidden" name="first_11" value=""> 
+	<input type="hidden" name="first_12" value=""> 
+	<input type="hidden" name="first_13" value=""> 
+	<input type="hidden" name="first_14" value=""> 
+	<input type="hidden" name="first_15" value=""> 
 
 <p class="subject">
 	Subject: %%$sender_first%%%%if sender_first = "" then printdata sender_email%% thought you'd be interested in this. 
