@@ -1,7 +1,7 @@
 <?php
 
 	$title = "Forward to a friend";
-  $form = true;
+
 
   include("$_SERVER[DOCUMENT_ROOT]/inc/header.php");
 
