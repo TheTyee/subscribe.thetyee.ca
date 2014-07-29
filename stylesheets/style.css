@@ -71,7 +71,7 @@ label.checkbox {
   font-weight: 300;
   line-height: 1.2;
 }
- input[type="text"], input[type="email"]{
+ input[type="text"], input[type="email"], textarea {
   padding: 3px;
   border-width: 2px;
   border-radius: 2px;
@@ -118,11 +118,11 @@ cursor: pointer;
 
 }
 
- input[type="text"]:hover, input[type="email"]:hover {
+ input[type="text"]:hover, input[type="email"]:hover, textarea:hover {
   border-color: #5da11e;
  }
 
- input[type="text"]:focus, input[type="email"]:focus {
+ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
   border-color: #dedede;
  }
 
