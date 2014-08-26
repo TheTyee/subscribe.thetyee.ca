@@ -28,8 +28,8 @@
         </div>
       </div>Send me the weekly newsletter
       <div class="description">
-        Every Monday you'll get an email listing all stories from the last week, as well as polls, top comments and contests. You'll also get early notice on Tyee events, news, promotions and special initiatives.
-      </div>
+          Every Monday you'll get an email listing all stories from the last week, as well as polls, top comments and contests. You'll also get early notice on Tyee events, news, promotions, partner messages and special initiatives.
+        </div>
     </label>
 
     <label class="checkbox">
@@ -40,7 +40,7 @@
         </div>
       </div>Send me the daily newsletter
      <div class="description">
-      Every day you'll get an email with all stories from the last 24 hours, plus early notice of Tyee events, news, promotions and special initiatives.
+        Every day you'll get an email with all stories from the last 24 hours, as well as polls and contests. You'll also get early notice on Tyee events, news, promotions, partner messages and special initiatives.
       </div>
     </label>
 
@@ -52,8 +52,7 @@
         </div>
       </div>Send me the national newsletter <span class="label">Coming soon</span>
       <div class="description">
-         When available, you'll get our latest and best reporting on issues of national scope, plus news of Tyee events, news, promotions and special initiatives. Frequency to be determined.
-      </div>
+      When available, you'll get our latest and best reporting on issues of national scope. You'll also get early notice on Tyee events, news, promotions, partner messages and special initiatives. Frequency to be determined.      </div>
     </label>
 
     <label class="checkbox">
@@ -62,9 +61,9 @@
           <input type="radio" aria-checked="false" id="custom_pref_sponsors-yes" name="custom_pref_sponsor_casl" value="1"/> Yes
           <input type="radio" aria-checked="true" id="custom_pref_sponsors-no" name="custom_pref_sponsor_casl" value="0" checked /> No
         </div>
-      </div>Send me messages from select Tyee sponsors &amp; partners
+      </div>Send me messages from select Tyee sponsors
       <div class="description">
-        You'll get, no more than once a month, messages from select sponsors or partners we think you might be interested in. Not into more email? We get it. Just know that simply having you on this list is a no-cost way to help fund more indie journalism.
+        Messages from select sponsors we think you might be interested in. Simply having you on this list is a no-cost way to help fund more indie journalism.
       </div>
     </label>
 
