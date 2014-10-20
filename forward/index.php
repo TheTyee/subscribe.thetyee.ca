@@ -10,7 +10,7 @@
 <h1>Forward to a Friend</h1>
 
 <p>You can forward this e-mail to five friends using the form below.</p>
-	<form action="http://premiere.whatcounts.com/bin/ftaf" method="post">
+	<form action="http://whatcounts.com/bin/ftaf" method="post">
 	<input type="hidden" name="cmd" value="send"> 
 	<input type="hidden" name="id" value="%%SUBSCRIBER_ID_TAG%%"> 
 	<input type="hidden" name="goto" value="%%GOTO%%"> 

@@ -8,10 +8,9 @@
 ?>
 
 
-
   <h1>Join The Tyee's mailing list</h1>
-  <form action="http://premiere.whatcounts.com/bin/listctrl" method="POST">
-    <input type="hidden" name="slid" value="4EB045FEF697325833F27594A5EED584568B7C70FEF7AB46" />
+  <form action="http://whatcounts.com/bin/listctrl" method="POST">
+    <input type="hidden" name="slid" value="6B5869DC547D3D46CFC60A3DF69EE7EB" />
     <input type="hidden" name="cmd" value="subscribe" />
     <input type="hidden" name="goto" value="http://subscribe.thetyee.ca/success/" />
     <input type="hidden" name="errors_to" value="" />

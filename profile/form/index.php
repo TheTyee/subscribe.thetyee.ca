@@ -2,7 +2,7 @@
   var updateform = true;
 ?>
 
-<form action="http://premiere.whatcounts.com/bin/sie" method="POST">
+  <form action="http://whatcounts.com/bin/sie" method="POST">
 
   <input type="hidden" name="cmd" value="update">
 <input type="hidden" name="eid" value="%%EID%%">

@@ -26,7 +26,7 @@
             </li>
         </ul>
 
-        <form action="http://goto.thetyee.ca/bin/sie" method="post" class="email-update">
+        <form action="http://go.thetyee.ca/bin/sie" method="post" class="email-update">
         <input type="hidden" name="cmd" value="genkey" /> <input type="hidden" name="realm" value="media_thetyee" /> Email: <input type="email" name="email" required/> <input type="submit" value="Submit" />
         </form>
     </div>

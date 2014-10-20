@@ -1,0 +1,69 @@
+
+<form>
+<input type="hidden" name="cmd" value="update">
+<input type="hidden" name="eid" value="%%EID%%">
+<input type="hidden" name="env" value="%%ENV%%">
+<input type="hidden" name="goto" value="%%GOTO%%">
+<input type="hidden" name="confirm_goto" value="%%CONFIRM_GOTO%%">
+<input type="hidden" name="skip_confirm" value="1"> 
+
+
+	<fieldset id="personal">
+
+<!--
+		<legend>
+			Personal information 
+		</legend> 		
+-->
+
+		<label for="email"> E-mail address (<em>required</em>): </label> <input class="required email" type="text" name="email" value="%%$email%%" size="25"> 
+	</fieldset>
+	<fieldset id="communications">
+		<legend>
+			<strong>Your subscription settings</strong> 
+		</legend>		
+		
+<ul>
+
+%%if custom_pref_enews_daily = "1" then print "<li>You are currently subscribed to the <strong>daily e-newsletter</strong></li>"%% 
+
+%%if custom_pref_enews_weekly = "1" then print "<li>You are currently subscribed to the <strong>weekly e-newsletter</strong></li>"%%
+%%if custom_pref_sponsor_enews = "1" then print "<li>You are currently subscribed to receive messages from select Tyee sponsors and partners (Just the fact that you're on this list helps a lot. Sincere thanks.)</li>"%%
+%%if custom_pref_sponsor_enews = "0" then print "<li>You are currently <em>not</em> subscribed to receive messages from select Tyee sponsors (Just having you on this list helps us financially. Please considering saying yes to this, below. Thanks!)</li>"%%
+<!--%%if custom_pref_no_fundraisers = "" then print "<li>You are currently subscribed to receive messages about Tyee news, events and fundraising.</li>"%% -->
+</ul>
+		
+
+<p> 
+
+		<input type="radio" name="custom_pref_enews_daily" value="1" %%if custom_pref_enews_daily = "1" then print "CHECKED"%%/><label for="1">Yes</label>
+		<input type="radio" name="custom_pref_enews_daily" value="0" %%if custom_pref_enews_daily = "0" then print "CHECKED"%%/><label for="2">No</label> -- Send me the daily e-newsletter</p> 
+
+<p> 
+		<input type="radio" name="custom_pref_enews_weekly" value="1" %%if custom_pref_enews_weekly = "1" then print "CHECKED"%%/><label for="3">Yes</label>
+		
+		<input type="radio" name="custom_pref_enews_weekly" value="0" %%if custom_pref_enews_weekly = "0" then print "CHECKED"%%/><label for="4">No</label> -- Send me the weekly e-newsletter</p>
+		
+<p> 
+		<input type="radio" name="custom_pref_sponsor_enews" value="1" %%if custom_pref_sponsor_enews = "1" then print "CHECKED"%%/><label for="5">Yes</label>
+		
+		<input type="radio" name="custom_pref_sponsor_enews" value="0" %%if custom_pref_sponsor_enews = "0" then print "CHECKED"%%/><label for="6">No</label> -- Send me messages from select Tyee sponsors and partners</p>	
+		
+<!--	
+<p> 
+		<input type="radio" name="custom_pref_no_fundraisers" value="" %%if custom_pref_no_fundraisers = "" then print "CHECKED"%%/><label for="7">Yes</label>
+		
+		<input type="radio" name="custom_pref_no_fundraisers" value="1" %%if custom_pref_no_fundraisers = "1" then print "CHECKED"%%/><label for="8">No</label> -- Send me messages about Tyee news, fundraising, and events.</p>
+		
+	-->			
+</fieldset>
+	
+	<input type="submit" value="Update" name="cmd"> <input type="submit" value="Cancel" name="cmd"> 
+</form>
+
+<!-- <p><em>Please note that for your security a final confirmation e-mail might be sent asking you to confirm any changes made on this page.</i></em>
+<p> 
+
+<p><strong>To opt out of <em>all</em> future Tyee e-mails, go <a href="http://subscribe.thetyee.ca/profile/unsubscribe">here</a>.</strong>
+</p>
+-->
