@@ -11,8 +11,9 @@
 
   <div class="address">
     <a href="http://thetyee.ca">The Tyee</a><br />
-    PO Box 88484<br />
-    Vancouver, BC V6A 4A7<br />
+    PO Box 28187 <br />
+    West Pender St <br />
+    Vancouver, BC V6C 3T7
   </div>
 </div> <!--footer -->
 
