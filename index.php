@@ -49,9 +49,9 @@
           <input type="radio" id="custom_pref_enews_national-yes" name="custom_pref_enews_national" value="1" /> Yes
          <input type="radio" aria-checked="true" id="custom_pref_enews_national-no" name="custom_pref_enews_national" value="0" checked /> No
         </div>
-      </div>Send me the national newsletter <span class="label">Coming soon</span>
+      </div>Send me the national newsletter 
       <div class="description">
-      When available, you'll get our latest and best reporting on issues of national scope. You'll also get early notice on Tyee events, news, promotions, partner messages and special initiatives. Frequency to be determined.      </div>
+     Sent out once a week, you’ll get our latest and best reporting on issues of national scope, plus occasional breaking story alerts. You'll also get early notice on Tyee events, news, promotions, partner messages and special initiatives.  </div>
     </label>
 
     <label class="checkbox">
