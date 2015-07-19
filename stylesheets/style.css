@@ -50,6 +50,9 @@ form, .main-content {
 
 div.differentiator {
   margin: 20px;
+  background: #e6e6e6;
+  padding: 8px 20px;
+  border-radius: 5px;
 }
 
 div.differentiator p {
