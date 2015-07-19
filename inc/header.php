@@ -21,7 +21,6 @@ else {
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title><?php echo $head_title ?></title>
   <link href="http://subscribe.thetyee.ca/stylesheets/style.css" rel="stylesheet" media="screen">
-  <link href="http://localhost:8888/subscribe.thetyee.ca/stylesheets/style.css" rel="stylesheet" media="screen">
   <link rel="shortcut icon" href="https://static.thetyee.ca/support/v1.3.2/ui/img/favicon.ico">
   <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
