@@ -1,13 +1,8 @@
 <?php
-
-	$title = "Join The Tyee";
+  $title = "Join The Tyee";
   $form = true;
-
   include("$_SERVER[DOCUMENT_ROOT]/inc/header.php");
-
 ?>
-
-
   <h1>Get The Tyee National Newsletter <span class="label">NEW!</span></h1>
   <form action="http://whatcounts.com/bin/listctrl" method="POST">
     <input type="hidden" name="slid" value="6B5869DC547D3D46CFC60A3DF69EE7EB" />
@@ -18,8 +13,6 @@
     <input type="hidden" id="format_mime" name="format" value="mime" />
 
     <label class="email">Email: <input type="email" name="email" id="email" required aria-required="true"/></label>
-
-  
 
     <label class="checkbox">
       <div role="presentation" class="form-checkbox">
@@ -32,8 +25,6 @@
      Sent out once a week, you’ll get our latest and best reporting on issues of national scope, plus occasional breaking story alerts. You'll also get early notice on Tyee events, news, promotions, partner messages and special initiatives.</div>
     </label>
 
-  
-
    <input type="submit" value="Join">
     <div class="differentiator">
       <h2>How is this newsletter different from The Tyee’s other newsletters?</h2>
@@ -43,12 +34,7 @@
     </div>
   </form>
 
-
-
-
-
 <?php
-
 $js_footer = "$_SERVER[DOCUMENT_ROOT]/inc/footer.php";
 if (file_exists($js_footer)){
    include ($js_footer);
