@@ -21,9 +21,16 @@ a:hover {
   background: rgba(128,218,2, .3);
 }
 
+
 h1 {
   font-weight: 300;
   text-align: center;
+}
+
+h2 {
+  font-size: 0.9em;
+  font-style: oblique;
+  font-weight: 300;
 }
 
 .js div.form-checkbox {
@@ -39,8 +46,19 @@ form, .main-content {
   background: #fff;
   padding: 1em;
   border-radius: 5px;
-
 }
+
+div.differentiator {
+  margin: 20px;
+  background: #e6e6e6;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+
+div.differentiator p {
+  font-size: 0.8em;
+}
+
 
 img.logo {
   display:block;

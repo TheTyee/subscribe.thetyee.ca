@@ -1,8 +1,7 @@
 <?php
 
-	$title = "Join The Tyee";
+  $title = "Join The Tyee";
   $form = true;
-
   include("$_SERVER[DOCUMENT_ROOT]/inc/header.php");
 
 ?>

@@ -3,7 +3,6 @@
   $title = "Update your Tyee Subscription";
   $profilepage = true;
   include("$_SERVER[DOCUMENT_ROOT]/inc/header.php");
-
 ?>
 
 

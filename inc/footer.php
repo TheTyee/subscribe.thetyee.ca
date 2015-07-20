@@ -4,9 +4,13 @@
 <div role="footer">
   <p><b>Your privacy is important to us</b>. Your information will never be shared, rented or sold to any other third party.</p>
   <p><b>Your email sanity is also important to us</b>. All Tyee messages have unsubscribe options at the bottom.
-  <?php if($profilepage == false) { ?>
-  You can unsubscribe there or change the frequency or preferences <a href="http://subscribe.thetyee.ca/profile/">here</a>.
-  <?php } ?></p>
+  <?php 
+  if(isset($profilepage)):
+    if($profilepage == false) { ?>
+    You can unsubscribe there or change the frequency or preferences <a href="http://subscribe.thetyee.ca/profile/">here</a>.
+    <?php } ?>
+  <?php endif;?>
+  </p>
   <p><b>Questions?</b> Email <a href="mailto:subscribe@thetyee.ca">subscribe@thetyee.ca</a>.</p>
 
   <div class="address">
@@ -26,7 +30,7 @@
 
 $(function() {
 
-  <?php if ($updateform){ ?>
+  <?php if (isset($updateform)){ ?>
 
     $('input[type="radio"]').each(function(){
     if ($(this).prop('checked') && $(this).val() == "1") {
