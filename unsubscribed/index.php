@@ -18,10 +18,6 @@
 	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
 
 </script>
-<script type="text/javascript">
-_uacct = "UA-169022-3";
-urchinTracker();
-</script>
 </head>
 <body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0" marginwidth="0">
 <table width="100%" height="100%" cellspacing="0" cellpadding="0" />
