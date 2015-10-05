@@ -37,7 +37,7 @@ include("$_SERVER[DOCUMENT_ROOT]/inc/header.php");
 <script type="text/javascript" src="/scripts/js.cookie.js"></script>
 <script>
 // Set UserIsaSubscriber cookie to prevent sub offers
-Cookies.set("user_is_a_subscriber", "true");
+Cookies.set("user_is_a_subscriber", "true", { expires: 365, domain: '.thetyee.ca' });
 </script>
 
 <?php
