@@ -25,6 +25,7 @@ else {
   <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
   </script>
+  <script type="text/javascript" src="/scripts/js.cookie.js"></script>
 </head>
 
 <body>
