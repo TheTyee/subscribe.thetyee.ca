@@ -13,10 +13,6 @@
 		<p>You must confirm your subscription if you want to receive e-mails from The Tyee (thetyee@response.thetyee.ca).</p>
 		<p>Please take a moment to do that now. You may want to look in your junk folder if you can't find the message at first.</p>
 	</div>
-<script>
-// Set UserIsaSubscriber cookie to prevent sub offers
-Cookies.set("user_is_a_subscriber", "true", { expires: 365, domain: '.thetyee.ca' });
-</script>
 
 <?php
 $js_footer = "$_SERVER[DOCUMENT_ROOT]/inc/footer.php";
