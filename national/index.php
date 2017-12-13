@@ -5,7 +5,7 @@
 ?>
   <h1>Get The Tyee National Newsletter <span class="label">NEW!</span></h1>
   <form action="http://whatcounts.com/bin/listctrl" method="POST">
-    <input type="hidden" name="slid" value="6B5869DC547D3D46CFC60A3DF69EE7EB" />
+    <input type="hidden" name="slid" value="6B5869DC547D3D4603F61BE1D346E715" />
     <input type="hidden" name="cmd" value="subscribe" />
     <input type="hidden" name="goto" value="http://subscribe.thetyee.ca/success/" />
     <input type="hidden" name="errors_to" value="" />
