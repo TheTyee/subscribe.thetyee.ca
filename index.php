@@ -14,8 +14,9 @@
     <input type="hidden" name="goto" value="http://subscribe.thetyee.ca/success/" />
     <input type="hidden" name="errors_to" value="" />
     <input type="hidden" name="custom_pref_tyeenews_casl" value="1" />
-    <input type="hidden" id="format_mime" name="format" value="mime" />
-
+    <input type="hidden" name="override_confirmation" value="1" />
+    <input type="hidden" name="force_sub" value="1" />
+    <input type="hidden" id="format_mime" name="forma" value="mime" />
     <label class="email">Email: <input type="email" name="email" id="email" required aria-required="true"/></label>
 
     <label class="checkbox">
