@@ -13,7 +13,7 @@
 
 		<p>To ensure receive e-mails from The Tyee (thetyee@response.thetyee.ca) please check for this message now to ensure it hasn't gone to you junk folder.</p>
 
-		<p>If the message arrived in your junk folder, please follow these instructions to at The Tyee to your address book.</p>
+		<p>If the message arrived in your junk folder, please <a href="https://kb.mailchimp.com/delivery/spam-filters/about-safe-sender-lists">follow these instructions</a> to add The Tyee to your address book.</p>
 	</div>
 
 <?php
